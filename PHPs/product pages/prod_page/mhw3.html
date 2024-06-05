@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mhw3.css" />
+    <title>@vinzven WP-24</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="icon" href="favicon.ico">
+    <script src="mhw3.js" defer></script>
+    <script src="https://js.stripe.com/v3/"></script>
+
+</head>
+
+<body>
+
+    <div id="menu-ham" class="menu-hidden">
+
+        <div class="logo-x">
+            <a href="#"> <img id="logo-menu" src="logo-site.png" class="logo" alt=""></a>
+            <button class="x-button"></button>
+        </div>
+
+        <div id="first-f" class="features" data-t="shop">
+            <p id="text-f" data-t="shop">SHOP</p>
+
+            <button class="arrow" data-arrow="on" data-t="shop">
+                <div class="bar"></div>
+            </button>
+
+        </div>
+
+        <div class="features" data-t="info">
+            <p id="text-f" data-t="info">INFORMATION</p>
+
+            <button class="arrow" data-arrow="on" data-t="info">
+                <div class="bar"></div>
+            </button>
+
+        </div>
+
+        <div class="features" data-t="contact">
+            <p id="text-f" data-t="contact">CONTACT</p>
+
+        </div>
+
+        <div class="features" data-t="search">
+            <p id="text-f" data-t="search-text">SEARCH</p>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="site">
+
+
+        <section id="header">
+
+            <div id="media-block">
+
+                <div id="tendina">
+                    <button class="hamburger"></button>
+                </div>
+
+                <a href="#"> <img id="SH" src="logo-site.png" class="logo" alt=""></a>
+                <a href="#"> <img id="SH-piccolo" src="sh logo.png" class="logo" alt=""></a>
+
+            </div>
+
+            <div class="container">
+
+                <form id="searchbar">
+                    <div class="none"></div>
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><img id="lentes" src="lente.png"></button>
+                </form>
+
+            </div>
+
+            <div id="login-sell">
+
+                <a href="#"> <img id="LG" src="blank-logo.png" class="LGstop" alt=""></a>
+
+                <button id="Sell-button">Sell</button>
+
+            </div>
+
+        </section>
+
+        <p id="desc">Nike Dunk Low "Panda"</p>
+
+        <section id="product-page">
+
+            <div id="image">
+
+                <div id="prod">
+                    <img id="shoe-pro" src="panda dunk.png">
+                </div>
+
+            </div>
+
+
+
+            <div id="size-section">
+
+                <p id="sel-size">SELECT YOUR SIZE</p>
+
+                <div id="sizes">
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">38.5</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">39</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">40</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">40.5</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">41</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">42</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">42.5</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">43</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">44</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">44.5</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">45</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">45.5</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">46</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">47</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">47.5</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">48.5</p>
+                        <p id="p" data-selected="no">€90</p>
+                    </button>
+
+                    <button id="size-price" data-active="no">
+                        <p id="s" data-selected="no">49.5</p>
+                        <p id="p" data-selected="no">€95</p>
+                    </button>
+
+
+
+
+                </div>
+
+                <p id="err-sel" class="hidden">Please select a size before checking out</p>
+
+                <div id="sel-valuta">
+
+                    <label for="valuta">Select your <br> currency:</label>
+                    <select id="valuta" name="valuta">
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="GBP">GBP - British Pound</option>
+                    </select>
+                
+                    <input id="btn-cur" type="button" value="Submit">
+
+                </div>
+
+                <div id="checkout" data-disabled="yes">
+                    <p>Checkout Powered By</p>
+                    <img src="Stripe-Emblem.png">
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+        <section id="mobile-prefooter">
+
+            <div id="bar-info">
+                <p>Client Service</p>
+
+                <button class="cross-btn" data-btn="on">
+                    <div class="bar"></div>
+                </button>
+
+            </div>
+
+            <div id="bar-info">
+                <p>Informations</p>
+
+                <button class="cross-btn" data-btn="on">
+                    <div class="bar"></div>
+                </button>
+
+            </div>
+
+            <div id="bar-info">
+                <p>Keep updated</p>
+
+                <button class="cross-btn" data-btn="on">
+                    <div class="bar"></div>
+                </button>
+
+            </div>
+
+        </section>
+
+        <section id="pre-footer">
+
+            <div id="infos-pre">
+                <p class="info-footer">Client Service</p>
+                <p>Mon-Fri 8:00am-6.00pm</p>
+                <p>Contacts here!</p>
+            </div>
+
+            <div id="infos-pre">
+                <p class="info-footer">Informations</p>
+                <p>Who i am?</p>
+                <p>Where you can find me</p>
+            </div>
+
+            <div id="infos-pre">
+                <p class="info-footer">Keep updated</p>
+                <p>Vincenzo Venezia, University of Catania (DIEEI)</p>
+                <p>Viale Andrea Doria, 6, 95125 Catania CT</p>
+
+                <div id="icons-pre">
+                    <a href=""><img id="insta" src="Instagram_icon.png.webp"></a>
+                    <a href="https://www.dieei.unict.it/"><img id="uni-logo" src="Logo+UniCT.png"></a>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="footer">
+            <p>Site Created by @vinzven - WP 2024</p>
+        </section>
+
+    </div>
+
+</body>
+
+
+
+</html>
